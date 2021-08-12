@@ -1,10 +1,14 @@
-## lessons learned
-ember routing
+# lessons learned
+## static routing
+generate a route
 * `ember g route clothes`
-ember nested routing
+to nest a route
 * `ember g route clothes/t-shirt`
-
-
+to get an index route (note that this doesnt generate a route named clothes/index but instead an index template)
+* `ember g route clothes/index`
+## dynamic routing
+dynamic routes require a model, otherwise you will get the error "No model was found for 'item' and no schema handles the type"
+* `this.route('item', { path: '/item/:item_id' });`
 
 # hello-ember
 
