@@ -1,3 +1,11 @@
+## lessons learned
+ember routing
+* `ember g route clothes`
+ember nested routing
+* `ember g route clothes/t-shirt`
+
+
+
 # hello-ember
 
 This README outlines the details of collaborating on this Ember application.
@@ -55,3 +63,5 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+
