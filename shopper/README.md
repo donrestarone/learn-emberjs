@@ -1,3 +1,14 @@
+# lessons learned
+## routing
+if you want an index page, you can generate an application index page by running
+* `ember g route index`
+this will create an index.hbs at the application level
+
+## route helpers
+route helpers can be defined with the following syntax:
+* `<LinkTo @route="item" @model="2">Product 2</LinkTo>`
+`LinkTo` will generate an anchor tag and the @route declaration will point to the item route which requires an ID which is provided as @model
+
 # shopper
 
 This README outlines the details of collaborating on this Ember application.
