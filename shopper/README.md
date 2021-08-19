@@ -9,6 +9,10 @@ route helpers can be defined with the following syntax:
 * `<LinkTo @route="item" @model="2">Product 2</LinkTo>`
 `LinkTo` will generate an anchor tag and the @route declaration will point to the item route which requires an ID which is provided as @model
 
+## generating components
+the component class and component template need to be generated separately
+* `ember g component product` => generates product.hbs
+* `ember g component-class product` => generates product.js
 # shopper
 
 This README outlines the details of collaborating on this Ember application.
