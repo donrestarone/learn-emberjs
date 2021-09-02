@@ -7,4 +7,8 @@ export default class ProductComponent extends Component {
   @action addNumber() {
     this.number = this.number + 1
   }
+
+  get productImage() {
+    return "https://placebear.com/g/200/300"
+  }
 }
