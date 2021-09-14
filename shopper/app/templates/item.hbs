@@ -5,8 +5,8 @@
   </div>
   <h5>Features</h5>
   <ul>
-    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam nisi voluptatem dicta modi doloribus possimus, sit tempore, ducimus beatae aperiam ut sed sapiente, praesentium culpa assumenda laboriosam. Mollitia, sapiente vel!</li>
-    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsa reprehenderit quis est officia dignissimos ex consequuntur earum debitis nesciunt ratione itaque expedita, exercitationem voluptatum tenetur doloremque neque! Odit, alias.</li>
-    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aut, perferendis reprehenderit dolore distinctio tempora facilis magnam itaque quis, molestiae incidunt aliquid aliquam dolor ea quidem asperiores nulla nam. Modi.</li>
+    {{#each this.model.features as |feature|}}
+      <li>{{feature}}</li>
+    {{/each}}
   </ul>
 </Container>
