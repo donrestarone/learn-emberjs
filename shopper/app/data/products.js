@@ -39,11 +39,11 @@ export const products = [
     "colors": [
       {
         "color": "red",
-        "image": "https://placebear.com/g/200/300",
+        "image": "https://placebear.com/g/200/301",
       },
       {
         "color": "black",
-        "image": "https://placebear.com/g/225/350",
+        "image": "https://placebear.com/g/225/351",
       }
     ]
   },
@@ -63,11 +63,11 @@ export const products = [
     "colors": [
       {
         "color": "red",
-        "image": "https://placebear.com/g/200/300",
+        "image": "https://placebear.com/g/200/302",
       },
       {
         "color": "black",
-        "image": "https://placebear.com/g/225/350",
+        "image": "https://placebear.com/g/225/352",
       }
     ]
   },

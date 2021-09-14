@@ -1,5 +1,6 @@
 
 <Container>
-  <Product></Product>
-  <Product></Product>
+  {{#each this.model as |product|}}
+    <Product @product={{product}}></Product>
+  {{/each}}
 </Container>

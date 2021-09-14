@@ -1,7 +1,11 @@
 <Container>
   <div class="product">
     <Product::Image @src={{this.productImage}}></Product::Image>
-    <Product::Details @color={{this.color}} @onChangeColor={{this.onChangeColor}} ></Product::Details>
+    <Product::Details
+      @color={{this.color}}
+      @item={{this.model}}
+      @onChangeColor={{this.onChangeColor}}
+    />
   </div>
   <h5>Features</h5>
   <ul>

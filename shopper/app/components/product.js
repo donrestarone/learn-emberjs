@@ -8,7 +8,10 @@ export default class ProductComponent extends Component {
     this.number = this.number + 1
   }
 
-  get productImage() {
-    return "https://placebear.com/g/200/300"
+  @action onChangeColor(newColor) {
+    // this is just there to avoid an error where app/components/product/details.hbs:21 gets undefined for the function callback
+    this.color = newColor
   }
+
+
 }
